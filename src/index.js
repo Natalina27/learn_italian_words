@@ -13,14 +13,17 @@ const AppList = () => {
 const AppHeader = () => {
     return <h1>Hello World!!!</h1>
 };
-const App = (
-    <>
-        <AppHeader />
-        <AppList />
-        <AppHeader />
-        <AppList />
-    </>
-);
+const App = () => {
+    return(
+        <>
+            <AppHeader />
+            <AppList />
+            <AppHeader />
+            <AppList />
+        </>
+        )
+};
+
 
 ReactDom.render(<App />, document.getElementById('root'));
 
