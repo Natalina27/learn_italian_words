@@ -1,14 +1,27 @@
 import React from "react";
 import ReactDom from 'react-dom';
 
-// const el = React.createElement(
-//     'h1',
-//     null,
-//     'Hello World, React.js!'
-// );
+const AppList = () => {
+    return (
+        <ul>
+            <li>My first list</li>
+            <li>My second list</li>
+        </ul>
+    )
+};
 
-const el = <h1>Hello World!!!</h1>;
+const AppHeader = () => {
+    return <h1>Hello World!!!</h1>
+};
+const App = (
+    <>
+        <AppHeader />
+        <AppList />
+        <AppHeader />
+        <AppList />
+    </>
+);
 
-ReactDom.render(el, document.getElementById('root'));
+ReactDom.render(<App />, document.getElementById('root'));
 
 
