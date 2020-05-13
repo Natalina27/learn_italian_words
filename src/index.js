@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDom from 'react-dom';
 import './index.css';
-import HeaderBlock from "./components/HeaderBlock";
+import HeaderBlock from "./components/HeaderBlock/HeaderBlock";
 
 const AppList = () => {
     const items = ['Item1', 'Item2','Item3', 'Item4'];
