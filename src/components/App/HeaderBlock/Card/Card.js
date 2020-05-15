@@ -3,18 +3,30 @@ import styles from './Card.module.scss';
 
 class Card  extends React.Component{
 
+    state = {
+        done: false
+    };
+
     handleCardClick = () => {
-        console.log(this.props.rus);
+        this.setState({
+            done: !this.state.done
+        })
 
     };
 
     render(){
 
         const {eng, rus} = this.props;
+        const { done } = this.state;
+
+        const cardClass = [styles.card];
+        if(done){
+            cardClass.push(styles.done);
+        }
 
         return(
             <div
-                className={styles.card}
+                className={cardClass.join(' ')}
                 onClick={this.handleCardClick}
 
             >

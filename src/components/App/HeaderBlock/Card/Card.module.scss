@@ -9,7 +9,7 @@
   margin-right: 12px;
   
 
-  .done {
+  &.done {
     .cardInner {
       transform: rotateY(180deg);
     }
