@@ -2,13 +2,16 @@ import React from 'react';
 import styles from './HeaderBlock.module.scss';
 import {ReactComponent as ReactLogoSvg } from '../../logo.svg';
 
-const HeaderBlock = () => {
+const HeaderBlock = ({title, hideBackground = false, descr}) => {
+    const styleCover = hideBackground? { background: 'none'} : {};
+
     return(
-       <div className={styles.cover}>
+       <div className={styles.cover} style={styleCover}>
            <div className={styles.wrap}>
-               <h1 className={styles.header}>Learn English words online</h1>
+               {/*{title ? <h1 className={styles.header}>{title}</h1> : null}*/}
+               {title && <h1 className={styles.header}>{title}</h1>}
                <ReactLogoSvg />
-               <p className={styles.decr}> Use fill out cards and replenish your vocabulary</p>
+               <p className={styles.decr}> {descr}</p>
            </div>
        </div>
     );
