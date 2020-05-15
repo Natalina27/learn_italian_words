@@ -1,16 +1,33 @@
 import React from 'react';
-import HeaderBlock from "../HeaderBlock/HeaderBlock";
+import HeaderBlock from './HeaderBlock/HeaderBlock';
+import Header from '../Header/Header';
+import Paragraph from '../Paragraph/Paragraph';
+import {ReactComponent as ReactLogoSvg } from '../../logo.svg';
+import styles from './App.module.scss'
+
 
 const App = () => {
   return(
       <>
-        <HeaderBlock
-            title = 'Learn English words online'
-            descr = 'Use fill out cards and replenish your vocabulary'
-        />
-        <HeaderBlock title='We like it'
-                     hideBackground
-                     />
+        <HeaderBlock>
+          <Header>
+              Learn English words online
+          </Header>
+          <ReactLogoSvg />
+          <Paragraph>
+            Use remember cards and replenish your vocabulary
+          </Paragraph>
+        </HeaderBlock>
+        <HeaderBlock hideBackground>
+          <Header>
+            Excellent !
+        </Header>
+          <Paragraph>
+          GOOD JOB !
+          </Paragraph>
+          <ReactLogoSvg className={styles.svg}/>
+        </HeaderBlock>
+
       </>
   )
 };

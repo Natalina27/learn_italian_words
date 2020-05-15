@@ -1,4 +1,4 @@
-.cover{
+.cover {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,6 +15,18 @@
     background-color: #000;
     background-image: url('img/background.jpg');
 
+    &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-image: linear-gradient(to top, rgba(26,40,120,0.70), rgba(10,143,196,0.70));
+    }
+}
+
     svg{
         g{
             fill: white;
@@ -29,16 +41,7 @@
         background: transparent;
     }
 
-    &:after {
-        content: '';
-        display: block;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        background-image: linear-gradient(to top, rgba(26,40,120,0.70), rgba(10,143,196,0.70));
-    }
+
     .wrap{
         position: relative;
         z-index: 1;
@@ -55,4 +58,4 @@
         font-size: 20px;
         line-height: 1.55;
     }
-}
+
