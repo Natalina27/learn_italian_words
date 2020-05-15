@@ -4,7 +4,7 @@ import Header from './HeaderBlock/Header/Header';
 import Paragraph from './HeaderBlock/Paragraph/Paragraph';
 import {ReactComponent as ReactLogoSvg } from '../../logo.svg';
 import styles from './App.module.scss'
-import Card from "../Card/Card";
+import Card from "./Card/Card";
 
 
 const wordsList = [
