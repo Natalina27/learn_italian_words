@@ -9,7 +9,7 @@
   margin-right: 12px;
   
 
-  &.done {
+  &:hover {
     .cardInner {
       transform: rotateY(180deg);
     }
