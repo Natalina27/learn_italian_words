@@ -78,8 +78,11 @@ const App = () => {
           <Paragraph>
             Use remember cards and replenish your vocabulary
           </Paragraph>
+            <Paragraph>
+                Developed by Natalya Myunster
+            </Paragraph>
         </HeaderBlock>
-          <div>
+          <div className={styles.cover}>
               {
                   wordsList.map(({ eng , rus, id }) => <Card  key={id} eng={eng} rus={rus} />)
               }
