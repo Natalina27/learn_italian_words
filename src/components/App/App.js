@@ -15,57 +15,57 @@ import styles from './App.module.scss'
 const wordsList = [
     {
         eng: 'between',
-        rus: 'между',
+        it: 'tra',
         id : 1
     },
     {
         eng: 'high',
-        rus: 'высокий',
+        it: 'alto',
         id : 2
     },
     {
         eng: 'really',
-        rus: 'действительно',
+        it: 'realmente',
         id : 3
     },
     {
         eng: 'something',
-        rus: 'что-нибудь',
+        it: 'qualcosa',
         id : 4
     },
     {
         eng: 'most',
-        rus: 'большинство',
+        it: 'maggior parte',
         id : 5
     },
     {
         eng: 'another',
-        rus: 'другой',
+        it: 'altro',
         id : 6
     },
     {
         eng: 'much',
-        rus: 'много',
+        it: 'tanto',
         id : 7
     },
     {
         eng: 'family',
-        rus: 'семья',
+        it: 'famiglia',
         id : 8
     },
     {
         eng: 'own',
-        rus: 'личный',
+        it: 'proprio',
         id : 9
     },
     {
         eng: 'out',
-        rus: 'из/вне',
+        it: 'fuori',
         id : 10
     },
     {
         eng: 'leave',
-        rus: 'покидать',
+        it: 'lasciare',
         id : 11
     },
 ];
@@ -77,7 +77,7 @@ const App = () => {
       <>
         <HeaderBlock>
             <Header white>
-              Learn English words online
+              Learn Italian words online
           </Header>
           <ReactLogoSvg />
           <Paragraph white>
@@ -86,7 +86,7 @@ const App = () => {
         </HeaderBlock>
           <Section className={styles.textCenter}>
               <Header size='l' >
-                  We created lessons for help you to speak English fluently
+                  We created lessons for help you to speak Italian fluently
               </Header>
               <div className={styles.flexParagraph}>
                   <Paragraph>
@@ -111,13 +111,13 @@ const App = () => {
                               3
                           </div>
                       </Header>
-                     Native English teachers
+                     Native Italian teachers
                   </Paragraph>
               </div>
           </Section>
           <Section className={styles.textCenter} >
                 <Header size='l'>
-                    It's easy to start learning English with us
+                    It's easy to start learning Italian with us
                 </Header>
                 <Paragraph>
                     Click the card and learn the words fast and easy!
@@ -125,15 +125,15 @@ const App = () => {
               <div className={styles.flex}>
                   {
                       wordsList
-                          .map(({ eng , rus, id }) => (
-                              <Card  key={id} eng={eng} rus={rus} />
+                          .map(({ eng , it, id }) => (
+                              <Card  key={id} eng={eng} it={it} />
                           ))
                   }
               </div>
           </Section>
         <HeaderBlock hideBackground>
           <Header size='l' white>
-            Learn English with us !
+            Learn Italian with us !
           </Header>
           <Paragraph white>
             START RIGHT NOW !
