@@ -140,8 +140,9 @@ const App = () => {
           </Paragraph>
             <Button />
           <ReactLogoSvg className={styles.svg}/>
+            <Footer />
         </HeaderBlock>
-          <Footer />
+
 
           </>
   )
