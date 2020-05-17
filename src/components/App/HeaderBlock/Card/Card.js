@@ -16,7 +16,7 @@ class Card  extends React.Component{
 
     render(){
 
-        const {eng, rus} = this.props;
+        const {eng, it} = this.props;
         const { done } = this.state;
 
         const cardClass = [styles.card];
@@ -35,7 +35,7 @@ class Card  extends React.Component{
                         { eng }
                     </div>
                     <div className={styles.cardBack}>
-                        { rus }
+                        { it }
                     </div>
                 </div>
             </div>
