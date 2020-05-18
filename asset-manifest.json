@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/learn_italian_words/static/js/main.428de1c9.chunk.js",
+    "main.js.map": "/learn_italian_words/static/js/main.428de1c9.chunk.js.map",
+    "runtime-main.js": "/learn_italian_words/static/js/runtime-main.ef394e53.js",
+    "runtime-main.js.map": "/learn_italian_words/static/js/runtime-main.ef394e53.js.map",
+    "static/js/2.512200f9.chunk.js": "/learn_italian_words/static/js/2.512200f9.chunk.js",
+    "static/js/2.512200f9.chunk.js.map": "/learn_italian_words/static/js/2.512200f9.chunk.js.map",
+    "index.html": "/learn_italian_words/index.html",
+    "precache-manifest.e530563262ae37574a1b64389a42f376.js": "/learn_italian_words/precache-manifest.e530563262ae37574a1b64389a42f376.js",
+    "service-worker.js": "/learn_italian_words/service-worker.js",
+    "static/js/2.512200f9.chunk.js.LICENSE.txt": "/learn_italian_words/static/js/2.512200f9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef394e53.js",
+    "static/js/2.512200f9.chunk.js",
+    "static/js/main.428de1c9.chunk.js"
+  ]
+}
