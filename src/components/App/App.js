@@ -2,7 +2,8 @@ import React from 'react';
 import HeaderBlock from './HeaderBlock/HeaderBlock';
 import Header from './Header/Header';
 import Paragraph from './Paragraph/Paragraph';
-import {ReactComponent as ReactLogoSvg } from '../../logo.svg';
+// import {ReactComponent as ReactLogoSvg } from '../../itlogo.png';
+import img from '../../itlogo.png'
 import Card from './HeaderBlock/Card/Card';
 import Footer from './Footer/Footer';
 import Section from './Section/Section';
@@ -79,7 +80,8 @@ const App = () => {
             <Header white>
               Learn Italian words online
           </Header>
-          <ReactLogoSvg />
+          {/*<ReactLogoSvg />*/}
+          <img className={styles.itlogo} src={img}  alt="logo"/>
           <Paragraph white>
             Use remember cards and replenish your vocabulary
           </Paragraph>
@@ -135,11 +137,13 @@ const App = () => {
           <Header size='l' white>
             Learn Italian with us !
           </Header>
+            <img className={styles.itlogo} src={img} alt="logo"/>
           <Paragraph white>
             START RIGHT NOW !
           </Paragraph>
             <Button />
-          <ReactLogoSvg className={styles.svg}/>
+          {/*<ReactLogoSvg className={styles.svg}/>*/}
+          {/*<ReactLogoSvg />*/}
             <Footer />
         </HeaderBlock>
 
