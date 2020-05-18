@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/learn_italian_words/precache-manifest.e530563262ae37574a1b64389a42f376.js"
+  "/learn_italian_words/precache-manifest.ccdbe0d0db64cbc4834ca2068ff0d274.js"
 );
 
 self.addEventListener('message', (event) => {
