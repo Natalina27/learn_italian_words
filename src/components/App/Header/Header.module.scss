@@ -1,0 +1,22 @@
+.header{
+    font-size: 68px;
+    color: white;
+    padding: 24px;
+    //letter-spacing: 1px;
+    text-align: center;
+}
+
+.whiteColor{
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .header{
+        font-size: 40px;
+        color: white;
+        padding: 10px;
+        //letter-spacing: 1px;
+        text-align: center;
+    }
+
+}

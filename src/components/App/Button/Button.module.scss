@@ -1,0 +1,21 @@
+.button{
+  color: steelblue;
+  border: white 2px solid;
+  background: white;
+  font-weight: bold;
+  border-radius: 55%;
+  padding: 24px;
+  box-sizing: initial;
+}
+
+.button:hover{
+  color: white;
+  background: steelblue;
+}
+.buttonDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+  padding: 24px;
+}
