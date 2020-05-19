@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/learn_italian_words/static/css/main.4ba2e200.chunk.css",
-    "main.js": "/learn_italian_words/static/js/main.fe2a58e5.chunk.js",
-    "main.js.map": "/learn_italian_words/static/js/main.fe2a58e5.chunk.js.map",
+    "main.css": "/learn_italian_words/static/css/main.b750fae5.chunk.css",
+    "main.js": "/learn_italian_words/static/js/main.10ba6770.chunk.js",
+    "main.js.map": "/learn_italian_words/static/js/main.10ba6770.chunk.js.map",
     "runtime-main.js": "/learn_italian_words/static/js/runtime-main.ef394e53.js",
     "runtime-main.js.map": "/learn_italian_words/static/js/runtime-main.ef394e53.js.map",
     "static/js/2.eaea840a.chunk.js": "/learn_italian_words/static/js/2.eaea840a.chunk.js",
     "static/js/2.eaea840a.chunk.js.map": "/learn_italian_words/static/js/2.eaea840a.chunk.js.map",
     "index.html": "/learn_italian_words/index.html",
-    "precache-manifest.ccdbe0d0db64cbc4834ca2068ff0d274.js": "/learn_italian_words/precache-manifest.ccdbe0d0db64cbc4834ca2068ff0d274.js",
+    "precache-manifest.d22ed9d1ed74405f8b41844be9dd6dde.js": "/learn_italian_words/precache-manifest.d22ed9d1ed74405f8b41844be9dd6dde.js",
     "service-worker.js": "/learn_italian_words/service-worker.js",
-    "static/css/main.4ba2e200.chunk.css.map": "/learn_italian_words/static/css/main.4ba2e200.chunk.css.map",
+    "static/css/main.b750fae5.chunk.css.map": "/learn_italian_words/static/css/main.b750fae5.chunk.css.map",
     "static/js/2.eaea840a.chunk.js.LICENSE.txt": "/learn_italian_words/static/js/2.eaea840a.chunk.js.LICENSE.txt",
     "static/media/HeaderBlock.module.scss": "/learn_italian_words/static/media/florence.858cfb16.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ef394e53.js",
     "static/js/2.eaea840a.chunk.js",
-    "static/css/main.4ba2e200.chunk.css",
-    "static/js/main.fe2a58e5.chunk.js"
+    "static/css/main.b750fae5.chunk.css",
+    "static/js/main.10ba6770.chunk.js"
   ]
 }

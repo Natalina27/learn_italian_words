@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08d963591cdc7f3bf484b843ef43818c",
+    "revision": "218ac5d3daa09c653727ca4d26060453",
     "url": "/learn_italian_words/index.html"
   },
   {
-    "revision": "b9045a81407521906065",
-    "url": "/learn_italian_words/static/css/main.4ba2e200.chunk.css"
+    "revision": "ac32bd842de8bc6922b3",
+    "url": "/learn_italian_words/static/css/main.b750fae5.chunk.css"
   },
   {
     "revision": "74b5baf8aa494365d231",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/learn_italian_words/static/js/2.eaea840a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9045a81407521906065",
-    "url": "/learn_italian_words/static/js/main.fe2a58e5.chunk.js"
+    "revision": "ac32bd842de8bc6922b3",
+    "url": "/learn_italian_words/static/js/main.10ba6770.chunk.js"
   },
   {
     "revision": "40bbcfa8cdb95e946b53",
