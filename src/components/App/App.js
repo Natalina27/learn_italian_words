@@ -142,8 +142,6 @@ const App = () => {
             START RIGHT NOW !
           </Paragraph>
             <Button />
-          {/*<ReactLogoSvg className={styles.svg}/>*/}
-          {/*<ReactLogoSvg />*/}
             <Footer />
         </HeaderBlock>
 

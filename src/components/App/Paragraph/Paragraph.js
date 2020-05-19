@@ -2,11 +2,12 @@ import React from 'react';
 import styles from './Paragraph.module.scss';
 
 const Paragraph = ({children}) => {
-    return(
+    return (
+        <div  className={styles.paragraph}>
 
-            <p className={styles.paragraph}>
                 {children}
-            </p>
+        </div>
+
 
     );
 };
